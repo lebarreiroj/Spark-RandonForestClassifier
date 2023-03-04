@@ -2,21 +2,26 @@
 
 ## Propósito
 
-Este código foi desenvolvido com objetivo de desenvolver perfil de desenvolvimento com o PySpark.
+Este código foi desenvolvido com objetivo de compartilhar conhecimentos com outras pessoas que desejam conhecer o trabalho com PySpark, tratamento de dados  para uso de Machine Learning para o caso de Classificação.
 
-O código carrega dados de arquivos CSV de Acidentes da Polícia Rodoviária Federal - PRF em DataFrame Spark.
-
-Foram realizados filtros para manter os dados somente de acidentes com vítimas fatais, vítimas graves e vítimas leves.
-
+Trata-se de um código desenvolvido para utilização da tecnologia, portanto não foram avaliadas as classificações realizadas pelo Machine Learning RandonForestClassifier.
 
 ## Dados 
 
-Este Jupyter Notebook processa arquivos CSV de registros de Acidentes de Trânsito disponibilizados pela Polícia Rodoviária Federal - PRF dos Dados Abertos, agrupados por ocorrência e podem ser baixados no seguinte link: https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/dados-abertos-acidentes.
+Esta aplicação usa dados de acidentes ocorridos nas Rodovias Federais sob jurisdição da Polícia Rodoviária Federal, em seu Portal de Dados Abertos, no formato CSV, no seguinte link: https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/dados-abertos-acidentes. Utilizamos neste estudo, os dados agrupados por ocorrência entre os anos de 2016 e 2022. 
 
-O código está preparado para trabalhar com os dados (arquivos) do ano de 2016 até 2021, buscados do diretório "./dados/".
+O código está preparado para trabalhar com os dados (arquivos CSV) dos anos de 2016 até 2022, buscados do diretório "./dados/".
 
 ## Processamento da Classificação
 
 Cógigo PySpark
 Spark DataFrame 
 RandoForestClassifier
+
+## Convite
+
+O código fonte encontra-se disponível no endereço: https://github.com/lebarreiroj/Spark-RandonForestClassifier.
+
+Fica o convite para contribuições de melhorias!
+
+Grato.
